@@ -1,0 +1,218 @@
+body{
+    background-color: rgb(173, 0, 253);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+#Character{
+    position: absolute;
+    right: -56vh;
+    top: -47vh;
+    z-index: 1111;
+    height: 150%;
+    width: 150vh;
+}
+
+
+#LeftEye{
+  position: absolute;
+  right: 20.3vh;
+  top: 43vh;
+  z-index: 1001;
+  height: 4vh;
+}
+#RightEye{
+ position: absolute;
+ z-index: 1001;
+  right: 15.2vh;
+  top: 42vh;
+  height: 4.5vh;
+}
+
+
+
+
+#Title{
+    position: absolute;
+    top: 5%;
+    color: white;
+    left: 32%;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#GameHolder{
+    width: 30%;
+    height: 70%;
+    background-color: white;
+    position: absolute;
+    border: 1vh solid black;
+    border-radius: 2%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+#button-holder{
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    
+}
+.button{
+    border: 0.15vh solid black;
+    background-color: white;
+    
+    font-size: 200%;
+    border-radius: 20%;
+    background-color: grey;
+    color: lightgray;
+}
+#Pass{
+    margin-left: 20%;
+    margin-right: 1%;
+}
+#Smash{
+    margin-left: 5%;
+    margin-right: 1%;
+}
+#powerButton{
+    border: 0.15vh solid black;
+    margin-right: 0;
+    margin-left: 12%; 
+    font-size: 150%;
+    border-radius: 50%;
+    background-color: rgb(168, 1, 1);
+    color: rgb(247, 60, 60);
+}
+#image-holder{
+    width: 100%;
+    height: 80%;
+    outline: solid blue 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#ImageCard{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#ResultsBNT{
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    z-index: 2222;
+    color: rgb(255, 0, 157);
+    background-color: black;
+    border: solid rgb(255, 0, 157) 0.1vh;
+    border-radius: 15%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ResultsBNT:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 157);
+    border: solid rgb(255, 0, 157) 0.1vh;
+}
+
+
+#ResultsHolder{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 60%;
+    height: 80%;
+    background-color: black;
+    z-index: 3333;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#PassHolder{
+    outline: 0.5vh solid rgb(255, 0, 157);
+    width: 50%;
+    height: fit-content;
+    float: left;
+}
+#PassTitle{
+    height: 5vh;
+    width: 49.5%;
+    position: fixed;
+    color: white;
+    border-bottom: white solid 0.1vh;
+    margin-left: 0.25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+}
+#SmashHolder{
+    outline: 0.5vh solid rgb(255, 0, 157);
+    width: 50%;
+    height: fit-content;
+    float: right;
+    
+}
+#SmashTitle{
+    height: 5vh;
+    width: 49.5%;
+    position: fixed;
+    color: white;
+    border-bottom: white solid 0.1vh;
+    margin-left: 0.25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+
+}
+.ResultImg{
+ width: 50%;
+ height: 10%;
+ margin-left: 25%;
+}
+
+.ResultsIMGholder{
+    height: fit-content;
+    width: 100%;
+    margin-top: 10%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 0, 157);; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 0, 157);; 
+  }
+
+
