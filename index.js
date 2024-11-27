@@ -106,7 +106,16 @@ document.getElementById('ResultsBNT').addEventListener('click', (e)=>{
 
 
 
+//detect speech bubble
+function DetectBubble(e){
+    document.getElementById('SpeechBubble').style.display = ""
+    document.getElementById('Character').src = "./assets/Character2.png"
+}
 
+function CloseBubble(e){
+    document.getElementById('SpeechBubble').style.display = "none"
+        document.getElementById('Character').src = "./assets/Character.png"
+}
 
 
 
