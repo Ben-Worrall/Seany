@@ -1,5 +1,7 @@
-
-
+let image1000 = new Image()
+image1000.src="./assets/Character2.png"
+let image10001 = new Image()
+image10001.src="./assets/Character.png"
 
 
 document.addEventListener('mousemove', (e)=>{
