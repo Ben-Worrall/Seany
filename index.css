@@ -16,7 +16,7 @@ body{
 }
 #BubbleDetector{
     position: absolute;
-    background-color: black;
+    background-color: rgba(red, green, blue, 0);
     width: 10vh;
     height: 10vh;
     right: 18vh;
