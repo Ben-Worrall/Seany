@@ -46,12 +46,16 @@ var ArrayPass = []
 
 
 for(i = 0; i < 43; i++){
-    let image = new Image()
-    image.src = `./assets/femboys/image${i+1}.png`
+    
     ImageArray.push(`./assets/femboys/image${i+1}.png`)
 
 }
+for(i = 0; i < ImageArray.length; i++){
+    let image = new Image()
+    image.src = ImageArray[i]
+    
 
+}
 
 document.getElementById('ImageCard').src = ImageArray.splice(0, 1)[0]
 
