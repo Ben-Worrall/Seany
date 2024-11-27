@@ -1,3 +1,7 @@
+document.onload()
+
+
+
 document.addEventListener('mousemove', (e)=>{
 
 const mouseX = e.clientX
@@ -42,7 +46,10 @@ var ArrayPass = []
 
 
 for(i = 0; i < 43; i++){
+    let image = new Image()
+    image.src = `./assets/femboys/image${i+1}.png`
     ImageArray.push(`./assets/femboys/image${i+1}.png`)
+
 }
 
 
